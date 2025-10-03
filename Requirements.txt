@@ -1,0 +1,7 @@
+# Core Dependencies
+numpy>=1.21.0
+tenseal>=0.3.0
+phe>=1.4.0
+
+# GUI Requirements
+Tkinter
