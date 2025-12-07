@@ -211,7 +211,8 @@ Ideal for:
 
 
 
-
+## Note:
+For the **BFV** scheme in our construction, the value of plain modulus is **536903681** (i.e., the value of t), the value of poly modulus degree is **8192** which controls the size of the polynomials used in the encryption and determines the number of coefficients in the polynomial modulus. The coefficient modulus bit sizes are **[60,40,40,60]** which refers to the bit sizes of the moduli for the first, second, and third slots of the polynomial. These moduli, in turn, determine the overall ciphertext modulus **q**.  The overall ciphertext modulus is the product of these primes, providing the modulus under which the coefficients of the polynomial will be reduced during homomorphic operations.  In **TenSEAL**, the ciphertext modulus is not explicitly given as a single value, but it is derived from the coefficient modulus (a collection of primes) set in the encryption parameters. The ciphertext modulus influences the security and performance of the encryption but is typically handled automatically through the coefficient modulus bit sizes and poly modulus degree settings. For the **CKKS**, the value of poly modulus degree is **8192**  and the coefficient modulus bit sizes are **[60,40,40,60]**. 
 
 
 
