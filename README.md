@@ -2,7 +2,7 @@
 
 ## ✨ Overview 
 
-This project implements  **Unbalanced Two-party Secure Computation Protocol** using **Homomorphic Encryption (HE)**, enabling privacy-preserving arithmetic operations on encrypted data. The protocol follows the client-server model where:
+This project implements an **Unbalanced Two-party Secure Computation Protocol** based on **Homomorphic Encryption (HE)**, enabling privacy-preserving arithmetic operations over encrypted data. The protocol adopts a client–server architecture in which:
 
 - **The Client** encrypts input data and selects an operation.
 
@@ -10,7 +10,7 @@ This project implements  **Unbalanced Two-party Secure Computation Protocol** us
 
 - The encrypted result is sent back to the client.
 
-Built with **TenSEAL**, the protocol supports multiple HE schemes **(BFV, Paillier, CKKS)** for **integer and floating-point** operations, featuring a user-friendly **Tkinter GUI**.
+Designed with **TenSEAL**, the protocol supports multiple HE schemes **(BFV, Paillier, CKKS)** for **integer and floating-point** operations, featuring a user-friendly **Tkinter GUI**.
 
 
 ## 🎯 Key Features
