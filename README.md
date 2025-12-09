@@ -1,4 +1,4 @@
-# 🔐 Unbalanced  Two-party Secure Computation Protocol using Homomorphic Encryption
+# 🔐 Unbalanced  Secure Computation Protocol using Homomorphic Encryption
 
 ## ✨ Overview 
 
